@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutcontainer {
+    margin-top: 50px;
+    display: flex;
+   
+}
+
+.aboutimg img{
+    width: 500px;
+    margin-left: 50px;
+}
+
+
+.abouttext {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.abouttitle {
+    color: darkcyan;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+
+/*User-agent, or browsers, have basic style sheets that give default styles to any document. 
+These style sheets are named user-agent stylesheets.
+Most browsers use actual stylesheets for this purpose, while others simulate them in code. 
+The end result is the same.*/
